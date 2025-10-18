@@ -1,6 +1,6 @@
 # 🎬 Disney Data Pipeline - AWS Cloud Analytics
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![AWS](https://img.shields.io/badge/AWS-Cloud-orange.svg)](https://aws.amazon.com/)
 [![PySpark](https://img.shields.io/badge/PySpark-3.x-red.svg)](https://spark.apache.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red.svg)](https://streamlit.io/)
