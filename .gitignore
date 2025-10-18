@@ -1,0 +1,20 @@
+
+# Archivos de credenciales y ambiente
+.env
+*.env
+credentials
+venv/
+myenv/
+
+# Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Archivos de salida de datos (ya están en S3)
+*.pkl
+data/
+spark_output/
+*.csv
+*.parquet
+
