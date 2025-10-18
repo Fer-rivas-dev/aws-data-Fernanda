@@ -7,19 +7,6 @@
 
 Pipeline de datos end-to-end para análisis de películas Disney utilizando servicios AWS, PySpark y visualización con Streamlit.
 
-## 📋 Tabla de Contenidos
-
-- [Descripción](#-descripción)
-- [Arquitectura](#-arquitectura)
-- [Tecnologías](#-tecnologías)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Instalación](#-instalación)
-- [Uso](#-uso)
-- [Datasets](#-datasets)
-- [Funcionalidades](#-funcionalidades)
-- [Resultados](#-resultados)
-- [Autor](#-autor)
-
 ## 🎯 Descripción
 
 Este proyecto implementa un pipeline de datos completo para procesar, transformar y visualizar información sobre películas Disney. El sistema ingesta datos desde múltiples fuentes (Kaggle y API Disney), los procesa con PySpark, y genera visualizaciones interactivas.
@@ -94,6 +81,7 @@ text
 - **Disney API**: Información de personajes
 
 ## 📁 Estructura del Proyecto
+
 disney-pipeline-project/
 │
 ├── notebooks/
