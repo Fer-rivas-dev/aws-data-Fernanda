@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Fernanda</title>
+
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+
+  <style>
+    body {
+      background-color: #1b1b2f;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #e0e0e0;
+    }
+
+    .container {
+      margin-top: 80px;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      color: #ff77aa !important;
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      color: #ff5fa1;
+      font-weight: 700;
+    }
+
+    p.lead {
+      color: #d0d0d0;
+    }
+
+    .card {
+      border-radius: 15px;
+      border: none;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background: linear-gradient(135deg, #3a1c71, #ff77aa);
+      transition: transform 0.3s, box-shadow 0.3s;
+      color: #fff;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(255, 119, 170, 0.6);
+    }
+
+    .card-title {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #ffe6f2;
+    }
+
+    .card-text {
+      flex-grow: 1;
+      color: #f0d9f0;
+      font-size: 0.95rem;
+    }
+
+    .btn-project {
+      background-color: #ff5fa1;
+      color: #1b1b2f;
+      border: none;
+      margin-top: 10px;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .btn-project:hover {
+      background-color: #ff77aa;
+      color: #fff;
+      box-shadow: 0 0 10px #ff77aa, 0 0 20px #ff5fa1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portafolio de Fernanda</a>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container text-center">
+    <h1 class="my-5">Bienvenido a mis proyectos</h1>
+    <p class="lead mb-5">Explora mis proyectos de desarrollo:</p>
+
+    <div class="row justify-content-center g-4">
+
+      <!-- Proyecto 1 -->
+      <div class="col-md-4 d-flex">
+        <div class="card w-100">
+          <h5 class="card-title">Proyecto 1 - Automatización con Python</h5>
+          <p class="card-text">Scripts y herramientas para automatizar tareas y optimizar procesos usando Python.</p>
+          <a href="https://github.com/Fer-rivas-dev" target="_blank" class="btn btn-project">Ver proyecto</a>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="col-md-4 d-flex">
+        <div class="card w-100">
+          <h5 class="card-title">Proyecto 2 - Ejercicio en equipo</h5>
+          <p class="card-text">Ejercicio colaborativo en Python: construcción de una calculadora sencilla en equipo.</p>
+          <a href="Ejercicio_en_Equipo_Calculadora_Python.html" class="btn btn-project">Ver proyecto</a>
+        </div>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="col-md-4 d-flex">
+        <div class="card w-100">
+          <h5 class="card-title">Proyecto 3 - Análisis de Datos</h5>
+          <p class="card-text">Exploración y visualización de datos con Python, Pandas y Matplotlib.</p>
+          <a href="Analisis%20de%20df%201.html" class="btn btn-project">Ver proyecto</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
